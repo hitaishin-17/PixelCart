@@ -34,10 +34,10 @@ app.use('/api/upload', uploadRoutes);
 if (process.env.NODE_ENV === 'production') {
   const __dirname = path.resolve();
   app.use('/uploads', express.static('/var/data/uploads'));
-  app.use(express.static(path.join(__dirname, '/build')));
+  app.use(express.static(path.join(__dirname, '/dist')));
 
   app.get('*', (req, res) =>
-    res.sendFile(path.resolve(__dirname, 'build', 'main.jsx'))
+    res.sendFile(path.resolve(__dirname, 'dist', 'main.jsx'))
   );
 } else {
   const __dirname = path.resolve();

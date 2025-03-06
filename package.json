@@ -5,10 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "install-deps": "cd backend && npm install && cd ../ && npm install",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "serve -s dist"
+    "start": "node backend/server.js",
+    "render-build": "npm run install-deps && npm run build && npm run start"
   },
   "dependencies": {
     "@paypal/react-paypal-js": "^8.8.2",
