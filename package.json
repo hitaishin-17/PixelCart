@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "node backend/server.js",
-    "render-build": "npm run install-deps && npm run build && npm run start"
+    "render-build": "npm run install-deps && npm run build"
   },
   "dependencies": {
     "@paypal/react-paypal-js": "^8.8.2",
