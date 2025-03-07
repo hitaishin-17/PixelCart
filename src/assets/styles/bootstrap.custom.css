@@ -87,14 +87,14 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #7b8a8b;
+  --bs-body-color: #7ba0a3;
   --bs-emphasis-color: #000;
   --bs-emphasis-color-rgb: 0, 0, 0;
-  --bs-secondary-color: rgba(123, 138, 139, 0.75);
+  --bs-secondary-color: rgba(112, 157, 160, 0.75);
   --bs-secondary-color-rgb: 123, 138, 139;
-  --bs-secondary-bg: #bdcecf;
+  --bs-secondary-bg: #a7b6b6;
   --bs-secondary-bg-rgb: 189, 206, 207;
-  --bs-tertiary-color: rgba(123, 138, 139, 0.5);
+  --bs-tertiary-color: rgba(133, 170, 173, 0.5);
   --bs-tertiary-color-rgb: 123, 138, 139;
   --bs-tertiary-bg: #f4f4f4;
   --bs-tertiary-bg-rgb: 244, 244, 244;
@@ -109,7 +109,7 @@
   --bs-highlight-bg: #fdebd0;
   --bs-border-width: 1px;
   --bs-border-style: solid;
-  --bs-border-color: #b5c0c1;
+  --bs-border-color: #a7bfc1;
   --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
   --bs-border-radius: 0.375rem;
   --bs-border-radius-sm: 0.25rem;
